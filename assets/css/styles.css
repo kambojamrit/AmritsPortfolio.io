@@ -1,0 +1,30 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+  }
+
+  video {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .github-link {
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .github-link a {
+    color: #ffffff; /* Match your theme */
+    background-color: #6a1b9a; /* Match purple tone from the screenshot */
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+
+  .github-link a:hover {
+    background-color: #9c27b0; /* Slightly lighter purple for hover effect */
+  }
+
+
